@@ -1,0 +1,39 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonation.Domain", "BloodDonation.Domain\BloodDonation.Domain.csproj", "{61CE88F0-9073-48CD-8B7E-3C75B65C5352}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonation.Application", "BloodDonation.Application\BloodDonation.Application.csproj", "{11172FA6-48F8-4AAF-99D0-A6716436B3DA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonation.Infrastructure", "BloodDonation.Infrastructure\BloodDonation.Infrastructure.csproj", "{E6A1A4AA-34CF-4060-8CD3-0C8F0F195072}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BloodDonation.Apis", "BloodDonation.Apis\BloodDonation.Apis.csproj", "{D040C45D-78FA-4322-8A7E-BAA639470A5C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{C44DE7D3-EE01-48AB-8C41-A8A3F78BFA55}"
+	ProjectSection(SolutionItems) = preProject
+		compose.yaml = compose.yaml
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{61CE88F0-9073-48CD-8B7E-3C75B65C5352}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{61CE88F0-9073-48CD-8B7E-3C75B65C5352}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{61CE88F0-9073-48CD-8B7E-3C75B65C5352}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{61CE88F0-9073-48CD-8B7E-3C75B65C5352}.Release|Any CPU.Build.0 = Release|Any CPU
+		{11172FA6-48F8-4AAF-99D0-A6716436B3DA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{11172FA6-48F8-4AAF-99D0-A6716436B3DA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{11172FA6-48F8-4AAF-99D0-A6716436B3DA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{11172FA6-48F8-4AAF-99D0-A6716436B3DA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6A1A4AA-34CF-4060-8CD3-0C8F0F195072}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6A1A4AA-34CF-4060-8CD3-0C8F0F195072}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6A1A4AA-34CF-4060-8CD3-0C8F0F195072}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6A1A4AA-34CF-4060-8CD3-0C8F0F195072}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D040C45D-78FA-4322-8A7E-BAA639470A5C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D040C45D-78FA-4322-8A7E-BAA639470A5C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D040C45D-78FA-4322-8A7E-BAA639470A5C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D040C45D-78FA-4322-8A7E-BAA639470A5C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
